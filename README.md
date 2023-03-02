@@ -36,7 +36,7 @@ A simple way to work with existing com.google.android.material.tabs.TabLayout
             
         )
         
-##### Step 4 Create ids.xml inside valuse folder. Inside its "<"resources">"  tag add
+##### Step 4 Create ids.xml under res->values folder. Then inside its "<"resources">"  tag add
 
 
     <item name="all" type="id" />
