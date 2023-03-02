@@ -1,5 +1,5 @@
-# TabLayoutHelper
-A simple way to work with com.google.android.material.tabs.TabLayout
+# TabLayoutHelper.kt
+A simple way to work with existing com.google.android.material.tabs.TabLayout
 
 ### How to use ?
 
