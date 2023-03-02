@@ -1,6 +1,7 @@
 # TabLayoutHelper.kt
 A simple way to work with existing com.google.android.material.tabs.TabLayout
 
+[![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 ### How to use ?
 
 ##### Step 1 add TabLayout in Layout XML.
