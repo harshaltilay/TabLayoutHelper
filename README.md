@@ -74,8 +74,8 @@ _tabLayout.setupTabWithActions(
 ```
         
 ##### Step 6 If you have included custom_tab.xml and want to show Notification badge then simply call 
-
+```
 setBadgeValue( tabPosition: Int, badgeValue: String? ) <br>
 Simply put badgeValue = null if you want to hide the badge.
-
+```
 ## That is it. :)
