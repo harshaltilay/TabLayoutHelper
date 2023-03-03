@@ -5,7 +5,7 @@ A simple way to work with existing com.google.android.material.tabs.TabLayout
 ### How to use ?
 
 ##### Step 1 add TabLayout in Layout XML.
-
+```
            <com.google.android.material.tabs.TabLayout
             android:id="@+id/period_tab_layout"
             android:layout_width="match_parent"
@@ -14,13 +14,13 @@ A simple way to work with existing com.google.android.material.tabs.TabLayout
             app:tabIndicatorHeight="0dp"
             app:tabMode="fixed"
             app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget" />
-            
+```            
             
 ##### Step 2 make sure you have <a href="custom_tab.xml">custom_tab.xml</a> included IF YOU WANT TO SHOW NOTIFICATION BADGES.
 
 
 ##### Step 3 Initialize TabLayoutHelper as follows
-
+```
         _tabLayout = TabLayoutHelper(
         
            tabLayout= binding.categoryTabLayout,
@@ -36,17 +36,19 @@ A simple way to work with existing com.google.android.material.tabs.TabLayout
             hasBadge = true  
             
         )
+```        
         
 ##### Step 4 Create ids.xml under res->values folder. Then inside its "<"resources">"  tag add
-
-
+```
     <item name="all" type="id" />
     <item name="essential" type="id" />
     <item name="casual" type="id" />
     <item name="anxiety" type="id" />
+```
 
 ##### Step 5 Add Tabs and actions to our _tabLayout
 
+```
 _tabLayout.setupTabWithActions(
 
             listOf(
@@ -69,6 +71,7 @@ _tabLayout.setupTabWithActions(
             }
 
         }
+```
         
 ##### Step 6 If you have included custom_tab.xml and want to show Notification badge then simply call 
 
